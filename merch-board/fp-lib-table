@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "artsfest-touch")(type "KiCad")(uri "C:/Users/Kai/Documents/_MyDocuments/KiCad/artsfest/artsfest-touch.pretty")(options "")(descr ""))
+  (lib (name "artsfest-audio")(type "KiCad")(uri "C:/Users/Kai/Documents/_MyDocuments/KiCad/artsfest/artsfest-audio.pretty")(options "")(descr ""))
+)

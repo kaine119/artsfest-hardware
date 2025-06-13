@@ -1,0 +1,132 @@
+(footprint "SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Tactile button, variable cap height, 6.0x6.0mm body")
+	(property "Reference" "REF**"
+		(at 0 -4.2 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b34a3f2d-b7a8-4442-b786-ac249e8fde8e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d850c737-808d-4103-ab9e-b6d65b9f5454")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588944873278091264"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "782e0ded-a27f-49ac-8cb1-c52243a5a5eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5001a416-366c-4b60-9b02-61f09850ed9a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3 -3)
+		(end 3 3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "86a42aa5-ba61-4a04-8c8a-b512cb67a668")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1.75 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e8c8aee4-3402-482e-a9e6-3456e4197a7c")
+	)
+	(fp_rect
+		(start -5 -3.3)
+		(end 5.1 3.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "cf711d1e-08dd-42d7-ad7b-a4f971ebffbe")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bb757320-9a65-4692-a3d9-45aeab41123a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -4 -2.25)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "0f13dc9f-961b-4bd6-bf2a-a4c933d25e15")
+	)
+	(pad "1" smd rect
+		(at 4 -2.25)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "90014cfe-014a-42c8-8a28-ae421af292d6")
+	)
+	(pad "2" smd rect
+		(at -4 2.25)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "46d99530-fe65-4eef-8b5e-397f622319da")
+	)
+	(pad "2" smd rect
+		(at 4 2.25)
+		(size 1.5 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 45)
+		(uuid "c40e16b8-4996-45d0-80a4-0003892e9bf9")
+	)
+	(embedded_fonts no)
+)
