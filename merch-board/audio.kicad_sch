@@ -2426,7 +2426,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 138.811 120.404 0)
 			(effects
 				(font
@@ -2461,7 +2461,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 135.89 119.38 0)
 			(effects
 				(font
@@ -3117,7 +3117,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15849"
+		(property "LCSC" "C14445"
 			(at 257.81 77.47 0)
 			(effects
 				(font
@@ -3231,7 +3231,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 99.568 90)
 			(effects
 				(font
@@ -3463,7 +3463,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C209149"
+		(property "LCSC" "C25117"
 			(at 123.19 91.44 0)
 			(effects
 				(font
@@ -3512,7 +3512,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 200.66 102.108 90)
 			(effects
 				(font
@@ -3616,7 +3616,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1604"
+		(property "LCSC" "C1531"
 			(at 143.51 102.87 0)
 			(effects
 				(font
@@ -3835,7 +3835,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C15525"
 			(at 72.39 76.2 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 117.221 120.404 0)
 			(effects
 				(font
@@ -3978,7 +3978,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 114.3 119.38 0)
 			(effects
 				(font
@@ -4056,7 +4056,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C23630"
+		(property "LCSC" "C12530"
 			(at 107.95 104.14 0)
 			(effects
 				(font
@@ -4134,7 +4134,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C15525"
 			(at 104.14 119.38 0)
 			(effects
 				(font
@@ -4213,7 +4213,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a4be497-a04f-497b-9860-b8510f79addb")
+			(uuid "9a4be497-a04f-497b-9860-b8510f79addc")
 		)
 		(instances
 			(project ""
@@ -4540,7 +4540,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C19702"
+		(property "LCSC" "C15525"
 			(at 125.73 119.38 0)
 			(effects
 				(font
@@ -4583,7 +4583,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1u"
+		(property "Value" "100n"
 			(at 65.151 77.224 0)
 			(effects
 				(font
@@ -4618,7 +4618,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C14663"
+		(property "LCSC" "C1525"
 			(at 62.23 76.2 0)
 			(effects
 				(font
