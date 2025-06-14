@@ -2762,10 +2762,6 @@
 		(uuid "b1b3d0a7-45ff-4929-873a-4ce96d398532")
 	)
 	(no_connect
-		(at 241.3 142.24)
-		(uuid "d2ff21f0-38a1-4e7e-a8c4-09172af1e791")
-	)
-	(no_connect
 		(at 241.3 137.16)
 		(uuid "ed80b6da-4e5f-4245-9896-f7d7c0e2218a")
 	)
@@ -3172,6 +3168,16 @@
 			(type default)
 		)
 		(uuid "4ac80c07-470d-4c97-9174-502fe0ee2534")
+	)
+	(wire
+		(pts
+			(xy 241.3 142.24) (xy 247.65 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bdc2bdd-02b3-4049-8515-31bde4a9a69f")
 	)
 	(wire
 		(pts
@@ -4425,6 +4431,17 @@
 			(justify left)
 		)
 		(uuid "87c69ef5-634d-4b39-b58c-cd82af919bc5")
+	)
+	(hierarchical_label "POT_VOL"
+		(shape input)
+		(at 247.65 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9795f057-d228-4318-af77-7dd57edf54b2")
 	)
 	(hierarchical_label "LED_OCT3"
 		(shape output)

@@ -1324,6 +1324,170 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R_Potentiometer"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_0_1"
+				(rectangle
+					(start 1.016 2.54)
+					(end -1.016 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Regulator_Linear:NCP1117-3.3_SOT223"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2343,7 +2507,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 93.98) (xy 104.14 93.98)
+			(xy 116.84 93.98) (xy 100.33 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2383,7 +2547,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 91.44 102.87)
+			(xy 87.63 91.44) (xy 87.63 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2543,6 +2707,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 106.68) (xy 113.03 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9960392d-6fd1-40da-a7af-9c63f2925b00")
+	)
+	(wire
+		(pts
 			(xy 175.26 149.86) (xy 175.26 152.4)
 		)
 		(stroke
@@ -2550,6 +2724,16 @@
 			(type default)
 		)
 		(uuid "99c173e9-4bf2-4a85-bbf3-78ad07af8a3d")
+	)
+	(wire
+		(pts
+			(xy 113.03 106.68) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a4cf768-c471-4ad2-b3da-cadb82282df5")
 	)
 	(bus
 		(pts
@@ -2623,7 +2807,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 88.9) (xy 76.2 102.87)
+			(xy 72.39 88.9) (xy 72.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2670,6 +2854,16 @@
 			(type default)
 		)
 		(uuid "b219f2e9-1507-43c2-b4db-04cc3ae7eb75")
+	)
+	(wire
+		(pts
+			(xy 104.14 135.89) (xy 104.14 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4eb1cbc-976b-4289-9953-9f45c9eab635")
 	)
 	(wire
 		(pts
@@ -2723,7 +2917,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 88.9) (xy 76.2 88.9)
+			(xy 116.84 88.9) (xy 72.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2733,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 91.44) (xy 91.44 91.44)
+			(xy 116.84 91.44) (xy 87.63 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2803,7 +2997,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 93.98) (xy 104.14 102.87)
+			(xy 100.33 93.98) (xy 100.33 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2883,6 +3077,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 124.46) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3ce4c77-f1e0-4862-9ce6-877f2687b936")
+	)
+	(wire
+		(pts
 			(xy 151.13 104.14) (xy 161.29 104.14)
 		)
 		(stroke
@@ -2890,6 +3094,16 @@
 			(type default)
 		)
 		(uuid "f5420fe9-8425-460a-a97a-ff188b5d0f1a")
+	)
+	(wire
+		(pts
+			(xy 113.03 129.54) (xy 107.95 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69cc453-daa6-4211-9833-14b6d13a5c8e")
 	)
 	(wire
 		(pts
@@ -3708,6 +3922,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 104.14 124.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "274027d7-66bd-4190-a4b1-bc5bb5e50282")
+		(property "Reference" "#PWR036"
+			(at 104.14 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 104.14 120.3269 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 104.14 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "678531d8-5f29-469a-9c14-7108e8d83edb")
+		)
+		(instances
+			(project ""
+				(path "/678860fb-ca84-49ce-8914-5111a0392305"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 210.82 137.16 90)
 		(unit 1)
@@ -3864,7 +4144,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 104.14 107.95 90)
+		(at 100.33 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3873,7 +4153,7 @@
 		(fields_autoplaced yes)
 		(uuid "34166703-6caa-4ff8-9528-39b3de2d39ab")
 		(property "Reference" "SW5"
-			(at 105.283 106.7378 90)
+			(at 101.473 106.7378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4162,7 @@
 			)
 		)
 		(property "Value" "TONE_SEL"
-			(at 105.283 109.1621 90)
+			(at 101.473 109.1621 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4171,7 @@
 			)
 		)
 		(property "Footprint" "artsfest-touch:SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
-			(at 99.06 107.95 0)
+			(at 95.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +4180,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 107.95 0)
+			(at 95.25 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3909,7 +4189,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 104.14 107.95 0)
+			(at 100.33 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,7 +4198,7 @@
 			)
 		)
 		(property "LCSC" "C2888740"
-			(at 104.14 107.95 90)
+			(at 100.33 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3943,7 +4223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 91.44 113.03 0)
+		(at 87.63 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3951,7 +4231,7 @@
 		(dnp no)
 		(uuid "372c2906-a7e0-4122-b517-d599eca30255")
 		(property "Reference" "#PWR049"
-			(at 91.44 119.38 0)
+			(at 87.63 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3960,7 +4240,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 87.63 114.3 0)
+			(at 83.82 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3968,7 +4248,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 113.03 0)
+			(at 87.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3977,7 +4257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 113.03 0)
+			(at 87.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3986,7 +4266,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 113.03 0)
+			(at 87.63 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,17 +4286,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 91.44 107.95 90)
+		(lib_id "Device:R_Potentiometer")
+		(at 104.14 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5080db58-fbf6-49fb-86f1-12aa04c0e346")
-		(property "Reference" "SW4"
-			(at 92.583 106.7378 90)
+		(uuid "4c406d0d-25fc-4597-b705-ccaa2f983dc2")
+		(property "Reference" "RV1"
+			(at 102.362 128.3278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4024,8 +4304,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "OCT_UP"
-			(at 92.583 109.1621 90)
+		(property "Value" "R_Potentiometer"
+			(at 102.362 130.7521 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4033,8 +4313,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "artsfest-touch:SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
-			(at 86.36 107.95 0)
+		(property "Footprint" "artsfest-touch:Potentiometer_SMD_Alps_RK10J1xR"
+			(at 104.14 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4043,7 +4323,80 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 86.36 107.95 0)
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer"
+			(at 104.14 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3990227a-8847-4f11-8ec2-ce1c38f42002")
+		)
+		(pin "3"
+			(uuid "81700c4a-e2c1-4082-a605-3e8e3d143337")
+		)
+		(pin "1"
+			(uuid "b0ae8a12-8a3c-4ec2-a4f0-995d54c418e2")
+		)
+		(instances
+			(project ""
+				(path "/678860fb-ca84-49ce-8914-5111a0392305"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 87.63 107.95 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5080db58-fbf6-49fb-86f1-12aa04c0e346")
+		(property "Reference" "SW4"
+			(at 88.773 106.7378 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "OCT_UP"
+			(at 88.773 109.1621 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "artsfest-touch:SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
+			(at 82.55 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4052,7 +4405,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 91.44 107.95 0)
+			(at 87.63 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4061,7 +4414,7 @@
 			)
 		)
 		(property "LCSC" "C2888740"
-			(at 91.44 107.95 90)
+			(at 87.63 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4975,7 +5328,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 113.03 0)
+		(at 72.39 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4983,7 +5336,7 @@
 		(dnp no)
 		(uuid "a7de8835-e041-4652-8bf4-d3c7344de258")
 		(property "Reference" "#PWR046"
-			(at 76.2 119.38 0)
+			(at 72.39 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +5345,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 72.39 114.3 0)
+			(at 68.58 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5000,7 +5353,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 113.03 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5009,7 +5362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 113.03 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5018,7 +5371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 76.2 113.03 0)
+			(at 72.39 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5328,7 +5681,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 76.2 107.95 90)
+		(at 72.39 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5337,7 +5690,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaec96b7-332c-4e19-ab98-2209c7ddebad")
 		(property "Reference" "SW3"
-			(at 77.343 106.7378 90)
+			(at 73.533 106.7378 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5699,7 @@
 			)
 		)
 		(property "Value" "OCT_DOWN"
-			(at 77.343 109.1621 90)
+			(at 73.533 109.1621 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" "artsfest-touch:SW_Push_1P1T_BZCN_TSD003_6.0x6.0mm"
-			(at 71.12 107.95 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5717,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 71.12 107.95 0)
+			(at 67.31 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5373,7 +5726,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 76.2 107.95 0)
+			(at 72.39 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +5735,7 @@
 			)
 		)
 		(property "LCSC" "C2888740"
-			(at 76.2 107.95 90)
+			(at 72.39 107.95 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5407,15 +5760,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 104.14 113.03 0)
+		(at 104.14 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "f60dd691-38f4-4731-be46-0d22e954389c")
-		(property "Reference" "#PWR052"
-			(at 104.14 119.38 0)
+		(fields_autoplaced yes)
+		(uuid "f33b1c53-e3df-4170-82e2-242f0456605d")
+		(property "Reference" "#PWR054"
+			(at 104.14 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5424,7 +5778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 114.3 0)
+			(at 104.14 140.0231 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5432,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 104.14 113.03 0)
+			(at 104.14 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5441,7 +5795,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 104.14 113.03 0)
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f6352f8b-485b-4e26-8c82-3db03de93733")
+		)
+		(instances
+			(project ""
+				(path "/678860fb-ca84-49ce-8914-5111a0392305"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f60dd691-38f4-4731-be46-0d22e954389c")
+		(property "Reference" "#PWR052"
+			(at 100.33 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 96.52 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5450,7 +5869,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 113.03 0)
+			(at 100.33 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,6 +6264,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "POT_VOL" input
+			(at 116.84 106.68 180)
+			(uuid "ea5c42ea-1641-4491-9aec-22e312cbafae")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
