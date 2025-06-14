@@ -154,14 +154,6 @@
         [
           "lib_footprint_mismatch|150000000|70210000|7fc8cf89-86ef-47e4-9790-641f0fa3f912|00000000-0000-0000-0000-000000000000",
           ""
-        ],
-        [
-          "unconnected_items|154600000|78360000|7f539b28-b616-4bed-84fe-4cee62b79904|dbba8337-5cbe-45e0-aab6-cef12106d1ee",
-          ""
-        ],
-        [
-          "unconnected_items|154600000|80360000|dbba8337-5cbe-45e0-aab6-cef12106d1ee|7b6dc61f-2b7e-4fc0-b59e-c3f9d47f0331",
-          ""
         ]
       ],
       "meta": {
