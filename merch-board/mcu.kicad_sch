@@ -2730,10 +2730,6 @@
 		(uuid "4dde892a-bae3-4c7c-9e17-9426868fa85f")
 	)
 	(no_connect
-		(at 241.3 132.08)
-		(uuid "5ab01c8d-969f-4b97-a61e-9c4852f1256e")
-	)
-	(no_connect
 		(at 241.3 73.66)
 		(uuid "5d2fac7c-8799-48bc-8ee0-afc4f0710c09")
 	)
@@ -3591,6 +3587,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 132.08) (xy 247.65 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3503e1b-5b18-4be6-966c-0e70f38e0519")
+	)
+	(wire
+		(pts
 			(xy 71.12 105.41) (xy 87.63 105.41)
 		)
 		(stroke
@@ -4398,6 +4404,17 @@
 			(justify left)
 		)
 		(uuid "58738f20-d343-4d38-8393-8d7f64b45309")
+	)
+	(hierarchical_label "LED_TONE_WS2812"
+		(shape output)
+		(at 247.65 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e9ad7c2-902e-42be-9267-5499682354fe")
 	)
 	(hierarchical_label "USB_D+"
 		(shape input)
