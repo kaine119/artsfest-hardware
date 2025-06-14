@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "artsfest-touch")(type "KiCad")(uri "${KIPRJMOD}/../artsfest-touch.pretty")(options "")(descr ""))
   (lib (name "artsfest-audio")(type "KiCad")(uri "${KIPRJMOD}/../artsfest-audio.pretty")(options "")(descr ""))
+  (lib (name "artsfest-art")(type "KiCad")(uri "${KIPRJMOD}/../artsfest-art.pretty")(options "")(descr ""))
 )
