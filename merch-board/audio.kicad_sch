@@ -2800,7 +2800,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21120"
+		(property "LCSC" "C16772"
 			(at 238.76 113.03 0)
 			(effects
 				(font
@@ -2974,7 +2974,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21120"
+		(property "LCSC" "C16772"
 			(at 190.5 106.68 0)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C21120"
+		(property "LCSC" "C16772"
 			(at 189.23 97.79 0)
 			(effects
 				(font
