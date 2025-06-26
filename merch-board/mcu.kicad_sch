@@ -4429,7 +4429,7 @@
 	)
 	(hierarchical_label "TOUCH_SDA"
 		(shape bidirectional)
-		(at 247.65 111.76 0)
+		(at 247.65 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4473,7 +4473,7 @@
 	)
 	(hierarchical_label "TOUCH_SCL"
 		(shape output)
-		(at 247.65 109.22 0)
+		(at 247.65 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
